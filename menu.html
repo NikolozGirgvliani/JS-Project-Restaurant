@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Xink & All - Home</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header class="nav-wrapper">
+        <nav class="navigation">
+            <div class="logo">
+                <img src="img/Girgona_create_logo_georgian_restaurand_names__xink_&_all__b885bc2c-f9cf-45e8-a8d6-14ce57f080fc.png"
+                    alt="Xink & All Logo">
+            </div>
+            <ul class="nav-links">
+                <li><a href="home.html">Home</a></li>
+                <li><a href="menu.html">Menu</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="menu-container-wrapper" style="max-width: 1200px; margin: 40px auto; padding: 20px 20px 100px 20px; display: flex; gap: 30px; justify-content: space-between; text-align: left;">
+        <div class="menu-section" style="flex: 3;">
+            <h1 class="menu-h1">Our Menu</h1>
+            <div id="categories">
+            </div>
+            <div id="products-grid" style="display: grid; grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); gap: 20px;">
+            </div>
+        </div>
+        <div class="cart-section" style="background: rgba(93, 64, 55, 0.95); border: 2px solid #FFD700; border-radius: 10px; padding: 20px; height: fit-content; width: 300px; box-shadow: 0 4px 15px rgba(0,0,0,0.5);">
+            <h2 class="menu-h2">
+                Cart</h2>
+            <div id="cart-items">
+            </div>
+            <div class="total-section">
+                <span>Total:</span>
+                <span id="cart-total">0 GEL</span>
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer fixed-footer">
+        <p>&copy; 2025 Xink & All - All Rights Reserved</p>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
